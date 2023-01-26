@@ -19,9 +19,17 @@
     color: #cccccc;
 }
 
+.footer-email {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.1;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
 .footer-contato li {
     font-weight: bold;
-    font-size: 2.25rem;
+    font-size: 2rem;
     line-height: 1.1;
     color: #ffffff;
     margin-bottom: 30px;
@@ -29,6 +37,8 @@
 
 .footer-contato li a {
     color: #ffffff;
+    font-style: none;
+    
 }
 
 .footer-copy {

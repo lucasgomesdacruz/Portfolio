@@ -91,6 +91,19 @@
   margin-bottom: 60px;
 }
 
+.cursos a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cursos a:hover {
+  color: #141414;
+  padding: 3px;
+  background: #67dd0a;
+  border-radius: 5px;
+  
+}
+
 .formacao-extra h3 {
   font-size: 0.875rem;
   line-height: 1.4;
@@ -126,12 +139,21 @@
 
 .formacao-extra span {
   color: #8f8f8f;
+
 }
 
 .cursos li {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+
+.data {
+  margin-top: 10px;
+  color: #141414;
+  
+}
+
 
 @media (max-width: 800px) {
   .formacao-container {
@@ -149,4 +171,5 @@
     position: initial;
     margin-bottom: 10px;
   }
+
 }
