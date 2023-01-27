@@ -64,7 +64,6 @@
 }
 
 .empresa-titulo a {
-    text-decoration: none;
     color: #141414;
     padding: 5px;
 }
@@ -110,7 +109,6 @@
     .empresa-titulo a {
         color: black;
         padding: 5px;
-        background: #e2dfdf;
         border-radius: 5px;
     }
 
