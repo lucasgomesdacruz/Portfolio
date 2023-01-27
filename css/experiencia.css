@@ -66,11 +66,10 @@
 .empresa-titulo a {
     text-decoration: none;
     color: #141414;
+    padding: 5px;
 }
 
 .empresa-titulo a:hover {
-    color: #141414;
-    padding: 5px;
     background: #67dd0a;
     border-radius: 5px;
 }
@@ -111,14 +110,13 @@
 
     .empresa-titulo a {
         color: black;
-        padding: 2px;
+        padding: 5px;
         background: #e2dfdf;
         border-radius: 5px;
     }
 
     .empresa-titulo a:hover {
-        color: #141414;
-        padding: 5px;
+        color: #141414;  
         background: #67dd0a;
         border-radius: 5px;
     }

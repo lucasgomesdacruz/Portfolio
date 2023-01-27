@@ -83,7 +83,7 @@
 }
 
 .faculdade-instituicao {
-  font-size: 1.125rem;
+  font-size: 1.3rem;
   color: #a3a3a3;
 }
 
@@ -94,11 +94,11 @@
 .cursos a {
   text-decoration: none;
   color: #ffffff;
+  padding: 3px;
 }
 
 .cursos a:hover {
   color: #141414;
-  padding: 3px;
   background: #67dd0a;
   border-radius: 5px;
   
@@ -150,7 +150,7 @@
 
 .data {
   margin-top: 10px;
-  color: #141414;
+  color: #8f8f8f;
   
 }
 
