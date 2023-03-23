@@ -96,12 +96,14 @@
   padding: 3px;
 }
 
-.cursos a:hover {
+/*.cursos a:hover {
   color: #141414;
   background: #67dd0a;
-  border-radius: 5px;
+  border-radius: 5px; 
+} 
+  */
   
-}
+
 
 .formacao-extra h3 {
   font-size: 0.875rem;

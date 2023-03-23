@@ -68,10 +68,10 @@
     padding: 5px;
 }
 
-.empresa-titulo a:hover {
+/*.empresa-titulo a:hover {
     background: #67dd0a;
     border-radius: 5px;
-}
+} */
 
 .empresa-habilidades {
     display: flex;
