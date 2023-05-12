@@ -27,6 +27,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+   
 }
 
 .footer-contato li {
@@ -80,11 +81,17 @@
         justify-content: left;
         align-items: center;
         gap: 10px;
-    
+        margin: 5px;
+    }
+
+    .footer-texto {
+        margin: 5px;
+        font-size: 1.3rem;
     }
 
     .footer-container {
         padding: 60px 0px 60px 0px;
+        margin: 5px;
     }
 
     .footer-contato li {

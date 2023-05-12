@@ -3,6 +3,7 @@ body {
   margin: 0px;
   color: #141414;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 h1,

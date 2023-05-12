@@ -1,7 +1,6 @@
 .experiencia {
     max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+   margin: 0 auto;
 }
 .experiencia h2 {
     font-size: 3rem;
@@ -136,6 +135,7 @@ strong {
         grid-column: auto;
         justify-content: center;
         grid-auto-columns: 300px ;
+        width: 300px;
     }
     .empresa p {
         margin-top: 20px; 
