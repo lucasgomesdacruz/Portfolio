@@ -39,6 +39,7 @@
     color: #ffffff;
     background: #8670EF;
     transition: .3s all ease-in-out;
+    border-radius: 15px;
 }
 
 .introducao img {
