@@ -1,120 +1,163 @@
 .experiencia {
     max-width: 1200px;
-    padding: 40px 20px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 100px;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-.experiencia .subtitulo {
-    color: #e0e0e0;
-    max-width: 4ch;
-}
-
-.experiencia-texto {
-    font-size: 1.5rem;
-    line-height: 1.33;
-    max-width: 40ch;
-    margin-bottom: 60px;
-    color: #525252;
-}
-
-.experiencia-texto strong {
-    color: #141414;
+.experiencia h2 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
 }
 
 .empresa {
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px 20px;
-    padding: 20px;
-    background: #f5f5f5;
-    margin-bottom: 20px;
-    border-radius: 4px;
-    position: relative;
+    justify-items: center;
+    
 }
-
-.empresa::before {
-    content: "";
-    display: block;
-    width: 4px;
-    height: 20px;
-    background: linear-gradient(#b6f829, #67dd0a);
-    position: absolute;
-    top: 20px;
-    left: -4px;
-}
-
-.empresa-ano {
-    position: absolute;
-    top: 22px;
-    left: -100px;
-    width: 80px;
-    text-align: right;
-    color: #525252;
-    font-size: 0.875rem;
+.empresa-conteudo {
+    width: 500px;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-auto-columns: 600px ;
+    text-align: left;
+    align-items: center;
     
 }
 
-.empresa-titulo {
-    font-size: 1.125rem;
-    line-height: 1.1;
-    font-weight: bold;
+.empresa h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    text-transform: none;
+    font-size: 2.5rem;
+    
+ 
 }
 
-.empresa-titulo a {
-    color: #141414;
-    padding: 5px;
+.empresa p {
+    font-size: 1.2rem;
+    color: #525252;
+    margin-bottom: 20px;
+    margin-top: 50px; 
+    text-align: left;
+}
+.empresa img {
+    width: 500px;
+    border: 2px solid #c9c9c9;
+    border-radius: 2px;
+    margin: 10px;
+    transition: .3s all ease-in-out;
+    
+}
+.empresa img:hover {
+    transform: scale(1.05);
 }
 
-/*.empresa-titulo a:hover {
-    background: #67dd0a;
-    border-radius: 5px;
-} */
-
-.empresa-habilidades {
+.links {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: left;
     gap: 10px;
-    align-content: start;
+    
+    
+}
+.links img {
+    display: flex;
+    width: 15px;
+    border: none;
+    border-radius: none;
+
 }
 
-.empresa-habilidades li {
-    font-size: 0.875rem;
-    line-height: 1.4;
-    border-radius: 4px;
-    background: #ffffff;
-    padding: 5px 10px;
-
+.links a {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #525252;
+    text-decoration: none;
+    text-align: left;
+    
 }
 
-@media (max-width: 800px) {
-    .experiencia {
+.links a:hover {
+    color: #8670EF;
+    
+}
+
+strong {
+    color: #ae9eff;
+}
+@media (max-width: 900px) {
+    
+    .experiencia h2 {
+        margin-bottom: 30px;
+    }
+    .empresa {
         grid-template-columns: 1fr;
-        gap: 40px;
+        grid-row: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 20px;
     }
-    .experiencia .subtitulo {
-        color: #141414;
-    }
-    .experiencia-texto {
-        font-size: 1.25rem;
-    }
-    .empresa-ano {
-        position: initial;
-        order: 1;
-        width: initial;
+    .empresa-conteudo {
+        display: grid;
+        grid-column: auto;
+        grid-auto-columns: 500px ;
         text-align: left;
     }
-    .empresa-titulo a {
-        color: black;
-        padding: 5px;
-        border-radius: 5px;
+    .empresa p {
+        margin-top: 20px; 
+        margin-bottom: 20px;
     }
 
-    .empresa-titulo a:hover {
-        color: #141414;  
-        background: #67dd0a;
-        border-radius: 5px;
-    }
 }
+
+@media (max-width: 450px) {
+    .experiencia h2 {
+        margin-bottom: 30px;
+    }
+    .empresa {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-bottom: 20px;
+        margin: 20px;
+          
+    }
+    .empresa-container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .empresa-conteudo {
+        display: grid;
+        grid-column: auto;
+        justify-content: center;
+        grid-auto-columns: 300px ;
+    }
+    .empresa p {
+        margin-top: 20px; 
+        margin-bottom: 20px;
+       
+    }
+    .empresa img {
+        width: 300px;
+        border: 2px solid #c9c9c9;
+        border-radius: 2px;
+        margin: 10px;
+        transition: .3s all ease-in-out;
+        
+        
+    }
+    .links img {
+        display: flex;
+        width: 15px;
+        border: none;
+        border-radius: none;
+    
+    }
+   
+}
+
