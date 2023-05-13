@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Desenvolvedor Front End Lucas Gomes">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="img/icoins/favicon1.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
-    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="js/plugin.js"></script>
+    <script src="js/index.js" defer></script>
     <title>Lucas - Desenvolvedor</title>
+    <script>
+        document.documentElement.classList.add("js");
+    </script>
 </head>
 <body>
     <header class="header">
@@ -24,13 +28,13 @@
         </ul>
        </nav>
     </header>
-    <main class="introducao">
-        <img src="img/Sem Título-1.png" alt="Pessoa" >
+    <main class="introducao fadeInDown">
+        <img src="img/Sem Título-1.png" alt="Pessoa" data-anime="300">
         <div class="introducao-container">
-            <h1>
+            <h1 data-anime="600">
                 Desenvolvedor <br> Front End
             </h1>
-            <p>
+            <p data-anime="800">
                 Olá me chamo Lucas e Sou um desenvolvedor apaixonado e dedicado ao meu trabalho. Adquiri as habilidades e conhecimentos necessários para tornar seu projeto um sucesso.
             </p>
             <div class="introducao-links">

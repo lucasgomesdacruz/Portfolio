@@ -22,3 +22,7 @@ const escrever = () => {
 }
 
 escrever()
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
