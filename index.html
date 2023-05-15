@@ -10,8 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="js/plugin.js"></script>
-    <script src="js/index.js" defer></script>
     <title>Lucas - Desenvolvedor</title>
     <script>
         document.documentElement.classList.add("js");
@@ -29,15 +27,15 @@
        </nav>
     </header>
     <main class="introducao">
-        <img src="img/Sem Título-1.png" alt="Pessoa">
+        <img class="fadeInDown" src="img/Sem Título-1.png" alt="Pessoa" data-anime="200">
         <div class="introducao-container">
-            <h1>
+            <h1 class="fadeInRight" data-anime="450">
                 Desenvolvedor <br> Front End
             </h1>
-            <p>
+            <p class="fadeInRight" data-anime="450">
                 Olá me chamo Lucas e Sou um desenvolvedor apaixonado e dedicado ao meu trabalho. Adquiri as habilidades e conhecimentos necessários para tornar seu projeto um sucesso.
             </p>
-            <div class="introducao-links">
+            <div class="introducao-links fadeInRight" data-anime="450">
                 <a href="https://www.linkedin.com/in/lucaass1997/" target="_blank">Linkedin</a>
                 <a href="https://github.com/lucasgomesdacruz" target="_blank">Github</a>
                 <a href="https://drive.google.com/file/d/1U8awiHGqJ-vKWYm3It7wLyvvziW-fTZc/view?usp=share_link" target="_blank">Currículo</a>
@@ -263,5 +261,7 @@
             <p class="footer-copy">© 2023 - Design and Code by Lucas gomes.</p>
         </div>
     </footer>
+    <script src="js/plugin.js"></script>
+    <script src="js/index.js" defer></script>
 </body>
 </html>
