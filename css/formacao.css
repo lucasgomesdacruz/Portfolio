@@ -157,6 +157,7 @@
   width: 100px;
   padding: 20px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .habilidades-menu img {

@@ -27,7 +27,6 @@ if (window.SimpleAnime) {
 }
 
 function initScrollSuave() {
-
     const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
     function scrollToSection(event) {
@@ -52,7 +51,7 @@ function initAnimacaoScroll() {
   const sections = document.querySelectorAll('.js-scroll');
 
   if(sections.length) {
-      const windowMetade = window.innerHeight * 0.5;
+      const windowMetade = window.innerHeight * 0.1;
 
       function animaScroll() {
           sections.forEach((section) => {
