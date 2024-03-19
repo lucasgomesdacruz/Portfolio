@@ -21,7 +21,7 @@
     width: 500px;
     display: grid;
     grid-column: 2 / 3;
-    grid-auto-columns: 900px ;
+    grid-auto-columns: 700px ;
     text-align: left;
     align-items: center;
     
