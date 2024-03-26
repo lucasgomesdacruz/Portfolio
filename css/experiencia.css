@@ -44,7 +44,8 @@
     text-align: left;
 }
 .empresa img {
-    width: 500px;
+    max-width: 500px;
+    object-fit: cover;
     border: 2px solid #c9c9c9;
     border-radius: 2px;
     margin: 10px;
